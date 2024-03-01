@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Form em html">
+        <meta name="keywords" content="form, label, html, css">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/icons8-dinossauro-16.png" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Formulários</h1>
+        <br/>
+        <h2>type text</h2>
+        <form action="/action_page.php">
+            <label for="pfessor" id="pfessor">professor favorito:</label><br/>
+            <input type="text" id="pfessor" name="pfessor" value="Jailson"/><br/><br/>
+            <label for="pqfessor" id="pqfessor">Por que o Jailson?</label><br/>
+            <input type="text" id="pqfessor" name="pqfessor" value="Jailson"/><br/><br/>
+            <input type="submit" value="submit"/>
+        </form>
+        <h2>type radio</h2>
+        <form action="/action_page.php">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br/><br/>
+            <input type="submit" value="submit">
+        </form> 
+        <h2>type checkbox</h2>
+        <form action="/action_page.php" id="form3">
+            <input type="checkbox" id="café1" name="café1">
+            <label for="café1">café quente</label><br/>
+            <input type="checkbox" id="café2" name="café2">
+            <label for="café2">café morno</label><br/>
+            <input type="checkbox" id="café3" name="café3">
+            <label for="café3">café frio</label><br/><br/>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
