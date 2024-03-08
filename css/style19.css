@@ -1,0 +1,12 @@
+body{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Capybara_%28Hydrochoerus_hydrochaeris%29.jpg/1280px-Capybara_%28Hydrochoerus_hydrochaeris%29.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*num sei*/
+}
+#cap{
+    text-align: center;
+    font-size: 200%;
+    font: bold;
+    font-family:'Courier New', Courier, monospace;
+}
