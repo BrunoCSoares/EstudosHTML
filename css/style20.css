@@ -1,0 +1,30 @@
+.um{
+    border: 3px dotted blueviolet;
+}
+.dois{
+    border: 3px dashed black;
+}
+.tres{
+    border: 3px solid red;
+}
+.quatro{
+    border: 3px double pink;
+}
+.cinco{
+    border: 3px groove blue;
+}
+.seis{
+    border: 3px ridge green;
+}
+.sete{
+    border: 3px inset yellow;
+}
+.oito{
+    border: 3px outset;
+}
+.nove{
+    border: 3px none;
+}
+.dez{
+    border: 3px hidden;
+}
